@@ -1,0 +1,21 @@
+/* .but {
+    animation: rotate 4s linear infinite;
+    
+}
+
+@keyframes rotate {
+    0% { 
+        transform: rotate(0deg)  
+              translateY(50px) rotate(0deg); 
+    } 
+
+    100% { 
+        transform: rotate(360deg)  
+              translateY(50px) rotate(-360deg); 
+    } 
+  }
+
+  .but1{
+    transform: translateX(95px);
+    animation: rotate 4s linear infinite;
+  } */

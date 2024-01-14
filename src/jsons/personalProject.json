@@ -1,0 +1,6 @@
+ {
+    "Authentication Security"    :  "Implemented JWT authentication to fortify the application's security, ensuring that only authorized users can access resources and features.",
+    "Backend API Development"    :  "Leveraged Node.js technologies to craft efficient and scalable backend APIs, facilitating seamless communication between the frontend and backend components of the application.",
+    "Advanced Filtering Options" :  "Introduced a diverse array of filters within the application, enabling users to easily customize their search based on specific preferences. This enhancement significantly improved the user experience.",
+    "Payment Gateway Integration":  "Successfully integrated a secure payment gateway, enabling users to make transactions confidently and conveniently. Users can now pay for their booked hotels directly through the application."
+}
