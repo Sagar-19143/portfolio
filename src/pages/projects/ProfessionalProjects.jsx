@@ -156,7 +156,7 @@ const ProfessionalProjects = () => {
                       {/* </div> */}
                       {/* <div className='flex justify-center'> */}
                       <button className="text-sm p-7 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 mr-3">
-                      Redux-thunk
+                      Redux-Saga
                       </button>
                       <button className="text-sm p-7 py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 mr-3">
                       Stripe

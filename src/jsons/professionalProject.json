@@ -8,8 +8,8 @@
     {
         "Project"                       :  "Insurance related services application (Insure Joy)",
         "Role"                          :  "Frontend Developer",
-        "Technical Skills:"             :  "React.js, HTML, CSS, JavaScript, Redux-thunk, Stripe",
-        "Tasks and Responsibilities:"   :  "I have functioned in the role of a Front-end Developer, employing the React.js framework. Within this capacity, I undertook the development of both the user interface and functionality for a web application focused on insurance services. My duties extended to overseeing the maintenance of API states through the utilization of Redux Thunk. Furthermore, I successfully integrated APIs into the application and facilitated the incorporation of a payment gateway through Stripe."
+        "Technical Skills:"             :  "React.js, HTML, CSS, JavaScript, Redux-Saga, Stripe",
+        "Tasks and Responsibilities:"   :  "I have functioned in the role of a Front-end Developer, employing the React.js framework. Within this capacity, I undertook the development of both the user interface and functionality for a web application focused on insurance services. My duties extended to overseeing the maintenance of API states through the utilization of Redux Saga. Furthermore, I successfully integrated APIs into the application and facilitated the incorporation of a payment gateway through Stripe."
     },
     {
         "Project"                       :  "Citrus Industry services application (Limoneira)",

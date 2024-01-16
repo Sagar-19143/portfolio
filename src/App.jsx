@@ -1,7 +1,7 @@
 import "./App.css";
 import Porfile from "./assets/Photo.png";
 import ArrowDown from "./assets/arrow-down.svg";
-import resume from "./assets/pdf/resume.pdf";
+import resume from "./assets/pdf/MyResume2.pdf";
 import { useEffect, useState } from "react";
 import ProfessionalProjects from './pages/projects/ProfessionalProjects'
 import PersonalProjects from "./pages/projects/personal-projects/PersonalProjects";
@@ -98,6 +98,7 @@ const handleOnMoreClick = (e) => {
                 <h2 className="font-bold text-4xl mt-1 gradiant-text">full stack developer</h2>
               </div>
               <div>
+
                 <p className="mt-4 text-gray-400">I am a Computer Science graduate student at the University of South Dakota, Vermillion, South Dakota.</p>
                 <p className="mt-4 text-gray-400">
                   {/* Former digital-marketing specialist, seeking to apply
