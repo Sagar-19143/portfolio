@@ -1,12 +1,5 @@
 import "./App.css";
 import Porfile from "./assets/Photo.png";
-import Project1 from "./assets/project1.png";
-import Project2 from "./assets/project2.png";
-import Project3 from "./assets/project3.png";
-import Project4 from "./assets/project4.png";
-import Facebook from "./assets/facebook.svg";
-import LinkedIn from "./assets/linkedin.svg";
-import Instagram from "./assets/instagram.svg";
 import ArrowDown from "./assets/arrow-down.svg";
 import resume from "./assets/pdf/resume.pdf";
 import { useEffect, useState } from "react";
@@ -105,11 +98,13 @@ const handleOnMoreClick = (e) => {
                 <h2 className="font-bold text-4xl mt-1 gradiant-text">full stack developer</h2>
               </div>
               <div>
+                <p className="mt-4 text-gray-400">I am a Computer Science graduate student at the University of South Dakota, Vermillion, South Dakota.</p>
                 <p className="mt-4 text-gray-400">
                   {/* Former digital-marketing specialist, seeking to apply
                   competent development skills with focus on collaboration,
                   communication, and passion */}
-                  Experienced full-stack web developer with a robust background, currently exploring opportunities to leverage advanced development skills. Committed to fostering collaboration, ensuring effective communication, and applying a genuine passion for crafting innovative solutions.
+                  With two years of hands-on experience in React.js and Node.js, <br />I possess a strong foundation in computer science fundamentals.<br /> My professional background has afforded me expert knowledge in software development, task responsibilities, and workplace dynamics.<br /> I am deeply motivated to persistently enhance my skills through continuous learning.
+                  {/* Experienced full-stack web developer with a robust background, currently exploring opportunities to leverage advanced development skills. Committed to fostering collaboration, ensuring effective communication, and applying a genuine passion for crafting innovative solutions. */}
                 </p>
                 {/* <button onClick={onDownloadClick} className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download Resume
