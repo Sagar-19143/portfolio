@@ -34,3 +34,27 @@ body {
     }
 }
 
+
+.bye {
+    animation-name: example;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes example {
+    0% {
+        left: 0px;
+        top: 0px;
+        display:none
+    }
+
+    50% {
+        left: 40px;
+        top: 0px;
+        display:none
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}

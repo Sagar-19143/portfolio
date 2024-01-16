@@ -71,7 +71,7 @@ const handleOnMoreClick = (e) => {
         <div className="container m-auto px-4 py-6 max-w-4xl bg-black">
           <div className="flex flex-col gap-4 sm:flex-row justify-between items-center">
             <div>
-              <h1 className="font-bold text-2xl">Alex Portfolio</h1>
+              <h1 className="font-bold text-2xl">Portfolio</h1>
             </div>
             <div>
               <ul className="flex gap-4">
@@ -106,14 +106,15 @@ const handleOnMoreClick = (e) => {
               </div>
               <div>
                 <p className="mt-4 text-gray-400">
-                  Former digital-marketing specialist, seeking to apply
+                  {/* Former digital-marketing specialist, seeking to apply
                   competent development skills with focus on collaboration,
-                  communication, and passion
+                  communication, and passion */}
+                  Experienced full-stack web developer with a robust background, currently exploring opportunities to leverage advanced development skills. Committed to fostering collaboration, ensuring effective communication, and applying a genuine passion for crafting innovative solutions.
                 </p>
-                <button onClick={onDownloadClick} className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                {/* <button onClick={onDownloadClick} className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download Resume
-                </button>
-                <button className="px-8 shadow-gray-500 shadow-md py-5 ml-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                </button> */}
+                <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   <a href={resume} target="_blank">View Resume</a>
                 </button>
               </div>
@@ -247,34 +248,59 @@ const handleOnMoreClick = (e) => {
               </div> */}
               {/* skills with individual headings */}
               <h2 className="text-2xl mt-10 font-semibold">Languages</h2>
-              <div className="mt-14">
+              <div className="bye mt-14">
               <div>
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Python</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  {/* <p className="text-gray-500">Advanced</p> */}
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">85%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[84%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">C</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">80%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[79%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Java</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">70%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[69%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">C++</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">70%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[69%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               
               
@@ -284,9 +310,15 @@ const handleOnMoreClick = (e) => {
                   <h2 className="font-semibold">
                     JavaScript
                   </h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">90%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[89%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               {/* <div className="mt-8">
                 <div className="flex justify-between items-center">
@@ -307,71 +339,127 @@ const handleOnMoreClick = (e) => {
                   <h2 className="font-semibold">
                     TypeScript
                   </h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">90%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[89%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">
                     Html
                   </h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[95%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">95%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[95%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[94%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">
                     CSS
                   </h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">70%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[70%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[69%] after:buttom-[12px]" ></span>
+                </div>
               </div>
 
               <h2 className="text-2xl mt-10 font-semibold">Frameworks</h2>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">React</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
+                <div className="flex flex-row">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">90%</span>
+                </div>
+                <div className="flex">
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[89%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Node Js</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">85%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[84%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Next Js</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">80%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[80%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[79%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Turtle</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
+                <div className="flex flex-row">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">90%</span>
+                </div>
+                <div className="flex">
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[89%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Kiwi</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">85%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[84%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">T-kinter</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">85%</span>
+                </div>
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md after:rounded-full" ></span>
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[84%] after:buttom-[12px]" ></span>
+
+                {/* <div className="relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full"></div> */}
+                </div>
               </div>
 
               <h2 className="text-2xl mt-10 font-semibold">Database</h2>
@@ -386,16 +474,29 @@ const handleOnMoreClick = (e) => {
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">MySql</h2>
-                  <p className="text-gray-500">Advanced</p>
                 </div>
+                <div className="flex flex-row">
+                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">90%</span>
+                </div>
+                <div className="flex">
                 <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[89%] after:buttom-[12px]" ></span>
+                </div>
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">Mongo DB</h2>
-                  <p className="text-gray-500">Advanced</p>
+                  {/* <p className="text-gray-500">Advanced</p> */}
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <div className="flex flex-row">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-black-500 to-cyan-500 block rounded-md"></span>
+                <span className="text-white-500">85%</span>
+                </div>
+                <div className="flex">
+                <span className="w-[85%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="mt-1 after:w-4 after:h-4 after:bg-gradient-to-t after:from-blue-100 after:to-cyan-100 mb-10 after:absolute after:rounded-full after:left-[84%] after:buttom-[12px]" ></span>
+                </div>
               </div>
             </div>
           </div>
@@ -491,7 +592,7 @@ const handleOnMoreClick = (e) => {
           </div>
         </section> */}
         {/* Additional skills section */}
-        <section>
+        {/* <section>
           <div className="container m-auto px-4 py-14">
             <h2 className="text-2xl font-semibold">
               Additional technologies and skills
@@ -536,7 +637,7 @@ const handleOnMoreClick = (e) => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Education */}
         <Education />
       </main>

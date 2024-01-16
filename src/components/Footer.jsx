@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2023</p>
+            {/* <p className="text-gray-300 text-sm">Copyright @ 2023</p> */}
           </div>
           <div>
             <ul className="flex gap-4">
@@ -19,7 +19,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/yellaramsagar" target="_blank">
+                <a href="https://www.linkedin.com/in/sagar-yellaram/" target="_blank">
                   <img src={LinkedIn} className="w-5" />
                 </a>
               </li>

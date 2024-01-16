@@ -1,0 +1,21 @@
+[
+    {
+        "Project"                       :  "CHR Navisphere load truck booking Application",
+        "Role"                          :  "Frontend Developer",
+        "Technical Skills:"             :  "React.js, HTML, CSS, JavaScript,Redux, Jest, Enzyme",
+        "Tasks and Responsibilities:"   :  "I have served in the capacity of a Front-end Developer, utilizing the React.js framework. This role encompassed the development of both the user interface and functionality for a web application dedicated to truck management. My responsibilities included the maintenance of the Redux state, ensuring the proper storage of state values. Additionally, I integrated APIs into the application and authored comprehensive test cases to maintain optimal code coverage, employing technologies such as Jest and Enzyme."
+    },
+    {
+        "Project"                       :  "Insurance related services application (Insure Joy)",
+        "Role"                          :  "Frontend Developer",
+        "Technical Skills:"             :  "React.js, HTML, CSS, JavaScript, Redux-thunk, Stripe",
+        "Tasks and Responsibilities:"   :  "I have functioned in the role of a Front-end Developer, employing the React.js framework. Within this capacity, I undertook the development of both the user interface and functionality for a web application focused on insurance services. My duties extended to overseeing the maintenance of API states through the utilization of Redux Thunk. Furthermore, I successfully integrated APIs into the application and facilitated the incorporation of a payment gateway through Stripe."
+    },
+    {
+        "Project"                       :  "Citrus Industry services application (Limoneira)",
+        "Role"                          :  "Full stack Developer",
+        "Technical Skills:"             :  "React.js, Node Js, HTML, CSS, JavaScript, Mongo DB",
+        "Tasks and Responsibilities:"   :  "I have held the position of a Full-stack Developer, leveraging the React.js and Node.js frameworks. In this role, I undertook the comprehensive development of the user interface, functionality, and backend APIs for a web application dedicated to citrus industry services. My responsibilities encompassed the maintenance and development of reusable components tailored for various types of administrators. I focused on integrating APIs efficiently to ensure rapid loading times. Additionally, I took charge of developing the backend APIs."
+    }
+
+]
