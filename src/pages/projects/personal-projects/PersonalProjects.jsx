@@ -64,9 +64,9 @@ Using voice commands and input text.</li>
                 }
                 </div>
                 <div className="flex mt-16 gap-2">
-                  <button disabled={true} className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  {/* <button disabled={true} className="flex-1 text-sm py-3 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     <a href="https://www.navispherecarrier.com/login" target="_blank">Live preview</a>
-                  </button>
+                  </button> */}
                   {/* <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button> */}
@@ -121,9 +121,9 @@ Using voice commands and input text.</li>
                 }
                 </div>
                 <div className="flex gap-2 mt-12">
-                  <button className="flex-1 text-sm py-3 mt-16 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  {/* <button className="flex-1 text-sm py-3 mt-16 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     <a href="" target="_blank">Live preview </a>
-                  </button>
+                  </button> */}
                   {/* <button className="flex-1 text-sm py-3 border rounded-full hover:border-blue-500 hover:text-blue-500">
                     Checkout github
                   </button> */}
