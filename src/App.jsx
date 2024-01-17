@@ -11,7 +11,7 @@ import profile from './assets/images/profile.jpeg';
 import {motion, useInView, useAnimation} from "framer-motion";
 import ProfPic1 from "./assets/images/ProfPic.jpeg"
 import ProfPic2 from "./assets/images/ProfPic2.jpeg"
-import ProfPic3 from "./assets/images/Profpic3.jpg";
+import ProfPic3 from "./assets/images/ProfPic3.jpg";
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
