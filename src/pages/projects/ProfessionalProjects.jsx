@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Project1 from "../../assets/project1.png";
 import Project2 from "../../assets/project2.png";
 import Project3 from "../../assets/project3.png";
@@ -9,12 +9,18 @@ import limoneira1 from "../../assets/images/limoneira.png";
 import limoneira2 from "../../assets/images/limoneira2.0.png";
 import './ProfessionalProjects.css'
 import data from '../../jsons/professionalProject.json'
-
+import {motion, useInView, useAnimation} from "framer-motion";
 const ProfessionalProjects = () => {
 
   const [showMoreDetails, setShowMoreDetails] = useState({});
-
-
+  const ref = useRef(null);
+  const isInView = useInView(ref, {once: true});
+  const mainControls = useAnimation();
+  useEffect(()=> {
+    if (isInView) {
+      mainControls.start("visible");
+    }
+  },[isInView]);
   const handleOnMoreClick = (e) => {
     console.log('e', e, "e.currentTarget", e.currentTarget.id, "e.target", e.target)
     const id = e.currentTarget.id
@@ -26,11 +32,20 @@ const ProfessionalProjects = () => {
   }
   console.log('showMoreDetails', showMoreDetails)
   return (
-    <div>
+    <motion.div  variants={{
+      hidden: {opacity: 0.05, y: 95},
+      visible: {opacity: 1, y:0}
+    }}
+    initial="hidden"
+    animate={mainControls}
+    transition={{duration: 2, delay: 0.3}}
+    ref={ref}>
       <section id="projects">
         <div className="container m-auto px-4 sm:py-12">
-          <h2 className="text-2xl font-semibold">Projects</h2>
-          <div className="flex flex-col sm:flex-row gap-10 mt-11">
+          <h2 className="text-2xl font-semibold">Work Experience</h2>
+          <div className='mt-5 border-0.5 border-gray-500 '>
+          <h1 className="mt-1 text-xl text-gray-400">Purple Talk private limited (April 2021 - October 2023)</h1>
+          <div className="flex flex-col sm:flex-row gap-10 mt-5">
             <div className="border border-gray-500 rounded-md p-5 flex-1">
               <img src={chrTruck} className="w-full h-auto" />
               <h3 className="text-2xl font-semibold mt-8">
@@ -268,9 +283,10 @@ helped found and develop many institutions that still exist</li>
                 </div>
               </div> */}
           </div>
+          </div>
         </div>
       </section>
-    </div>
+    </motion.div>
   )
 }
 
